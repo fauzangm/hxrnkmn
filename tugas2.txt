@@ -1,0 +1,144 @@
+					##LINUX COMMAND LINE## 
+
+----------------------------NAVIGATION--------------------------------
+ls 		: menampilkan file 
+pwd command 	: mencari path dari direktori folder
+cd		: Membuka file pada direktori 
+popd 		: Mengembalikan nilai sebelumnya dari direktori sekarang
+pushd 		: Simpan dan kemudian mengubah direktori sekarang
+pwd 		: Mengetahui direktori kita berada
+file 		: memberitahu jenis file
+updatedb	: mengupdate database
+mlocate	: Memberi tahu lokasi suatu file
+which		: lokasi command
+history 	: menampilkan histori bash command
+
+
+---------------------------GETTING HELP-------------------------------
+
+whoami 	: Cetak pengguna saat ini dan nama id
+whatis		: menampilkan deskripsi 
+apropos 	: Cari Bantuan halaman manual	
+apt-get 	: Cari dan menginstal paket perangkat
+man 		: Bantuan manual
+
+
+------------------------WORKING WITH FILES----------------------------
+
+mkdir 		: Membuat direktori baru
+touch 		: membuat file / mengubah file timestamps
+cp 		: mengcopy file /direktori
+mv 		: memindahkan file
+rm 		: menghapus file
+rmdir 		: menghapus direktori
+
+---------------------------TEXT FILES---------------------------------
+
+cat 		: Menampilkan isi file
+more/less 	: menampilkan isi output file 
+nano		: command line untuk text editor
+
+-----------------------------USERS------------------------------------
+
+sudo 		: Jalankan perintah sebagai user lain
+su 		: mengganti user
+users 		: Daftar para pengguna yang sekarang ini login
+id 		: Cetak user dan grup id
+
+------------------------CHANGING FILE PERMISSIONS----------------------
+
+chmod		: mengatur permissions file
+
+------------------------KILLING PROGRAMS AND LOGGING OUT---------------
+
+Ctrl+C 	: Memberhentikan saat running command
+kill 		: Memberhentikan proses yang sedang berjalan
+killall 	: Memberhentikan proses oleh nama
+exit 		: log out dari bash
+
+
+---------------------------USEFUL SHORTCUTS----------------------------
+
+Ctrl+D 	: Tutup bash shel
+Ctrl+L 	: refresh screen
+Ctrl++ 	: memperbesar tampilah layar terminal
+Ctrl+-		: memperkecil tampilan layar terminal
+
+
+					##Bash scripting## 
+
+Untuk menggunakan bash scripting bisa dengan membuat file sh "touch script.sh" lalu msk kedalam file tersebut 
+fungsi Bash scripting 
+    -Mengeliminasi task yang berulang-ulang.
+    -Menghemat waktu.
+    -Menghadirkan urutan aktivitas yang terstruktur, modular, dan terformat.
+    -Dengan bash function, Anda bisa menyediakan dynamic value pada command  dengan menggunakan command line argument.
+    -Menyederhanakan command yang kompleks menjadi satu command aktif yang bisa dijalankan.
+    -Digunakan sesering mungkin oleh user. Satu bash function untuk berkali-kali pemakaian.
+    -Membuat flow (aliran) logika.
+    -Digunakan di awal server (server start-up) atau dengan menambahkan cron job terjadwal.
+    -Debug command.
+    -Membuat shell command yang interaktif.
+    
+Base Scripting dapat menimplementasikan
+    -While loop
+    -For loop
+    -If statement
+    -And logic
+    -Or logic
+    -Else If statement
+    -Case Statement
+    
+    
+					##Git (opsional)##
+Merupakan VCS (Version Control System) sistem yang mengelola perubahan dari sebuah dokumen, program komputer, website dan kumpulan info lain.
+- Bisa menyimpan histori
+- Kolaborasi
+
+KEUNTUNGAN VCS (Version Control System)
+-Menyimpan rekaman perubahan source code
+-bekerja berkolaborasi
+-mengetahui siapa yg melakukan perubahan
+-bisa kembali ke keadaan sebelum perubahan
+
+------------GIT------------ = SALAH SATU SOFTWARE YANG BISA MELAKUKAN VCS
+RESPOSITORY /REPO 	: mengelola perubahan file didalam folder
+Commit			: Riwayat perubahan file 
+Hash			: Penanda untik pada sebuah commit
+Checkout		: Berpindah ke sebuah commit
+Branch			: Cabang bebas dari sebuah commit
+Merge			: proses menggabungkan cabang/branch
+
+---------GITHUB------------- = WEBSITE UNTUK MENGELOLA PROJECT GIT
+Merupakan Layanan Cloud untuk menyimpan dan mengelola projek 
+
+Sama dengan GIT namun bedanya GITHUB menggunakan cloud (terpisah oleh komputer kita)
+
+GIT Dan GITHUB BISA DIGABUNGKAN
+	-Kita bisa mengirim source code/projek Ke GITHUB 
+	-Kita juga bisa mengambil source code/projek dari Github
+
+push 	: Mengirim commit ke repo
+pull	: Mengambil commit dari repo 
+
+SYARAT 
+- MEMBUAT GITHUB MENJADI REMOTE
+- MENGCLODE REPO GITHUB KE GIT KITA
+REMOTE	: Sumber yang memiliki repo
+CLONE	: Mengambil repo dari remote
+ 
+ IMPLEMENTASI GITHUB
+ BRANCH : JALUR DEVELOPMENT BEBAS DARI SEBUAH COMMIT
+ MEMBUAT BRANCE BARU
+ - MELAKUKAN EDITING SUATU FILE , SAAT COMMIT PILIH CREATE NEW BRANCH
+ - ATAU KLIK BRANCH DAN KETIK DENGAN NAMA BRANCH YG DI INGINKAN
+ 
+ KETIKA KITA MEMBUAT/MENGUBAH BRANCH BARU KITA TIDAK AKAN MENGGANGGU BRANCH UTAMA KARENA BEDA JALUR.
+
+CARA MENGECEK JALUR BRANCH 
+- INSIGHT -> NETWORK
+
+KETIKA KITA MENEDIT SUATU FILE. SNAPSHOT AKAN TERSIMPAN DAN REPO AKAN MENGETAHUINYA 
+
+PULL Request	: Meminta repo untuk mengambil perubahan yang telah dilakukan
+Merge Conflict	: baris yang sama di ubah oleh 2 branch yang berbeda
