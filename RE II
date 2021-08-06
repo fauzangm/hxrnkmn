@@ -30,5 +30,5 @@ Tampilan isi dari stack program dan biasanya variabel local muncul di stack view
 ##Toolbar IDA
 Yang paling penting di gunakan pada saat proses dynamic analysis 
 - Continue	= melanjutkan program sampai selesai atau sampai terkena breakpoint
-- Step Into	= menjalankan instruksi berikutnya dan jika ada pemanggilan fungsi akan masuk 		kedalamnya
+- Step Into	= menjalankan instruksi berikutnya dan jika ada pemanggilan fungsi akan masuk kedalamnya
 - Step Over	= Menjalankan instruksi namun jika ada pemanggilan fungsi dia akan melewatinya
