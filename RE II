@@ -1,0 +1,34 @@
+	
+##Reverse Engineering ( RE )
+Teknik untuk mengetahui lajur dan cara kerja dari suatu program.
+
+##Reverse Engineering dalam CTF 
+Proses menemukan Flag dalam suatu program dengan memahami algoritma program tersebut baik secara static maupun Dynamic
+
+##Dynamic Analysis
+pengujian program dengan menganalisis dan mengeksekusi program secara real time atau memahami program dengan menjalankannya (Debugging)
+
+##Tools Debugger
+- IDA pro 
+- GDB
+
+##Breakpoint
+Breakpoint berfungsi untuk mempause program agar bisa menganalisis register / alamat memory dan melihat variabel
+
+##Konsep Debugging IDA
+Karena IDA merupakan aplikasi windows maka diperlukan remote debugging ke server local debugger linux dengan menggunakan port yang disediakan dan alamat hostname menggunakan localhost 127.0.0.1
+
+#Register
+sebuah tempat untuk penampungan sementara  data-data yang akan diolah 
+ 
+#Hex View
+program yang menampilkan tulisan berupa hexadecimal 
+
+# Stack View
+Tampilan isi dari stack program dan biasanya variabel local muncul di stack view
+
+##Toolbar IDA
+Yang paling penting di gunakan pada saat proses dynamic analysis 
+- Continue	= melanjutkan program sampai selesai atau sampai terkena breakpoint
+- Step Into	= menjalankan instruksi berikutnya dan jika ada pemanggilan fungsi akan masuk 		kedalamnya
+- Step Over	= Menjalankan instruksi namun jika ada pemanggilan fungsi dia akan melewatinya
