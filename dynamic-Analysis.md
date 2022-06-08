@@ -2,7 +2,6 @@
 
 # Table Of Contents
 
-- [MEMBUAT EC2 INSTANCE di AWS ACADEMY](#membuat-ec2-instance-di-aws-academy)
 - [Dynamic Analysis](#dynamic-analysis)
 - [Disassembler](#disassembler)
 - [Breakpoint](#breakpoint)
@@ -13,10 +12,6 @@
 - [Toolbar Dynamic-analysis IDA](#toolbar-dynamic-analysis-ida)
 
 
-
-## MEMBUAT EC2 INSTANCE di AWS ACADEMY
-Reverse engineering (RE) adalah Teknik untuk mengetahui lajur dan cara kerja dari suatu program.
-Dalam CTF bisa di artikan menemukan Flag dalam suatu program dengan memahami algoritma program tersebut baik secara static maupun Dynamic
 
 
 ## Dynamic Analysis
