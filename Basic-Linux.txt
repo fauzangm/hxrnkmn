@@ -1,6 +1,6 @@
 					##LINUX COMMAND LINE## 
 
-----------------------------NAVIGATION-------------------------------
+----------------------------NAVIGATIONS-------------------------------
 ls 		: menampilkan file 
 pwd command 	: mencari path dari direktori folder
 cd		: Membuka file pada direktori 
