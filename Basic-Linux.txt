@@ -1,6 +1,6 @@
 					##LINUX COMMAND LINE## 
 
-----------------------------NAVIGATIONS-------------------------------
+----------------------------NAVIGATION--------------------------------
 ls 		: menampilkan file 
 pwd command 	: mencari path dari direktori folder
 cd		: Membuka file pada direktori 
@@ -14,7 +14,7 @@ which		: lokasi command
 history 	: menampilkan histori bash command
 
 
----------------------------GETTING HELP------------------------------
+---------------------------GETTING HELP-------------------------------
 
 whoami 	: Cetak pengguna saat ini dan nama id
 whatis		: menampilkan deskripsi 
